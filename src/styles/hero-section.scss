@@ -1,0 +1,109 @@
+.hero__content {
+  padding-top: 70px;
+
+  @media only screen and (max-width: 576px) {
+    text-align: center;
+  }
+
+  h5 {
+    @media only screen and (max-width: 768px) {
+      font-size: 1rem !important;
+    }
+  }
+
+  .hero__title {
+    font-size: 2.5rem;
+    line-height: 55px;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 1.5rem;
+      line-height: 40px;
+      // margin: 0px 100px;
+    }
+
+    span {
+      color: #df2020;
+    }
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 30px;
+    color: #777;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 0.9rem;
+      line-height: 30px;
+    }
+  }
+
+  .hero__btns {
+    @media only screen and (max-width: 576px) {
+      justify-content: center;
+    }
+
+    button {
+      border: none;
+      outline: none;
+      padding: 7px 20px;
+      border-radius: 5px;
+      font-weight: 600;
+      cursor: pointer;
+
+      @media only screen and (max-width: 768px) {
+        padding: 5px 15px;
+        font-size: 0.7rem;
+      }
+    }
+
+    .order__btn {
+      background: #df2020;
+      color: #fff;
+      transition: 0.3s;
+
+      &:hover {
+        background: #212245;
+      }
+    }
+
+    .all__foods-btn {
+      background: transparent;
+      border: 1px solid #df2020 !important;
+
+      a {
+        color: #df2020;
+      }
+    }
+  }
+
+  .hero__service {
+    @media only screen and (max-width: 576px) {
+      justify-content: center;
+    }
+    p {
+      color: #212245;
+      font-weight: 600;
+      font-size: 0.9rem;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 0.7rem !important;
+      }
+    }
+
+    .shipping__icon {
+      i {
+        padding: 5px;
+        background: #df2020;
+        color: #fff;
+        border-radius: 50%;
+        font-weight: 500 !important;
+      }
+    }
+  }
+}
+
+// .reversed__row {
+//   @media only screen and (max-width: 576px) {
+//     flex-direction: column-reverse;
+//   }
+// }

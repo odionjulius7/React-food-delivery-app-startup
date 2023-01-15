@@ -1,0 +1,148 @@
+.feature__subtitle {
+  color: #df2020;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 1rem;
+  }
+}
+
+.feature__title {
+  @media only screen and (max-width: 768px) {
+  }
+
+  span {
+    color: #df2020;
+  }
+}
+
+.feature__text {
+  color: #777;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 0.8rem;
+    margin-bottom: 0px;
+  }
+}
+
+.feature__item {
+  p {
+    color: #777;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 0.8rem;
+      margin: 0px;
+    }
+  }
+
+  h5 {
+    @media only screen and (max-width: 768px) {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+.food__category {
+  background: #df2020;
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px 0px;
+  border-radius: 8px;
+
+  @media only screen and (max-width: 768px) {
+    padding: 15px;
+  }
+
+  button {
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 7px 20px;
+    background: transparent;
+
+    @media only screen and (max-width: 768px) {
+      padding: 5px 15px;
+      font-size: 0.7rem;
+    }
+
+    img {
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
+
+.foodBtnActive {
+  background: #fff !important;
+  border-radius: 5px;
+  color: #df2020 !important;
+}
+
+.why__tasty-treat {
+  .tasty__treat-title {
+    span {
+      color: #df2020;
+    }
+  }
+
+  .tasty__treat-desc {
+    color: #777;
+    line-height: 28px;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 0.8rem;
+    }
+  }
+
+  .choosen__us-title {
+    font-weight: 600;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 0.8rem;
+    }
+
+    i {
+      font-weight: 500 !important;
+      color: #df2020;
+    }
+  }
+
+  .choosen__us-desc {
+    color: #777;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 0.7rem;
+      margin-bottom: 0px;
+    }
+  }
+}
+
+.testimonial {
+  &__subtitle {
+    color: #df2020;
+    font-weight: 600;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 1rem;
+    }
+  }
+
+  &__title {
+    span {
+      color: #df2020;
+    }
+  }
+
+  &__desc {
+    color: #777;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+.why__choose-us {
+  @media only screen and (max-width: 576px) {
+    padding-top: 0 !important;
+  }
+}
